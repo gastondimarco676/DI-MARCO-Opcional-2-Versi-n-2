@@ -19,5 +19,9 @@ function Mensaje(peliculaElegida) {
     return mensaje
 }
 
-Mensaje(peliculaElegida)
+if(peliculaElegida >0 && peliculaElegida <4){
+    Mensaje(peliculaElegida)
+}else{alert(`${nombreUsuario},por favor elige una opción válida`)
+
+}
 
